@@ -1,7 +1,8 @@
 import React from 'react';
 import { ErrorBoundary } from 'react-error-boundary';
-import { Popular } from './components/Popular';
+// import { Popular } from './components/Popular';
 import './App.css';
+import { Battle } from './components/Battle';
 
 function ErrorFallback({ error, resetErrorBoundary }) {
   return (
@@ -22,7 +23,7 @@ export const App = () => {
           window.location.reload();
         }}
       >
-        <Popular />
+        <Battle />
       </ErrorBoundary>
     </div>
   );
