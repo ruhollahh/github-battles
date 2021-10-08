@@ -25,9 +25,8 @@ export const RepoList = ({ selectedLanguage }) => {
     <ul className="repo-list">
       {
         repos[selectedLanguage]?.map((repo, index) => {
-          const { forks, open_issues: openIssues, owner: {login: username, avatar_url: image, html_url: usernameUrl}, stargazers_count: stars, html_url: repoUrl } = repo;
-          const repoProps = { forks, openIssues, username, usernameUrl, image, stars, repoUrl, rank: index + 1 };
-          return <RepoCard key={repo.id} {...repoProps} />  
+
+          return <RepoCard key={repo.id} repo={repo} rank={index + 1} />
         })
       }
     </ul>

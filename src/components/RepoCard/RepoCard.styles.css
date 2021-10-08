@@ -12,8 +12,13 @@
 .detail {
     display: flex;
     gap: 8px;
+    margin-top: 4px;
 }
 
 .repo-card__header {
     text-align: center;
+}
+
+h3.repo-card__header {
+    color: #bb2e1f;
 }

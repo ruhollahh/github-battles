@@ -21,6 +21,11 @@ body {
     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 .wrapper {
   margin: 0 auto;
   max-width: 65rem;
@@ -36,4 +41,8 @@ body {
 
 .mt-2 {
   margin-top: 2rem;
+}
+
+.text-bold {
+  font-size: bold;
 }
