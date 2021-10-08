@@ -1,10 +1,7 @@
 import React from 'react';
 import Tooltip from "@reach/tooltip";
 import "@reach/tooltip/styles.css";
-import {FiUser} from 'react-icons/fi'
-import {FiStar} from 'react-icons/fi'
-import {FiGitBranch} from 'react-icons/fi'
-import {FiAlertTriangle} from 'react-icons/fi'
+import {FiUser, FiStar, FiGitBranch, FiAlertTriangle} from 'react-icons/fi'
 import './RepoCard.styles.css'
 import { Frame } from '../Frame';
 
