@@ -4,6 +4,5 @@ export const fetchRepos = async (lang) => {
   );
   const res = await fetch(endpoint);
   const { items } = await res.json();
-  console.log(items);
   return items;
 };
