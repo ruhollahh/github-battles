@@ -1,0 +1,19 @@
+.repo-card__details {
+    list-style: none;
+}
+
+.card-wrapper {
+    flex: 1 1 250px;
+    max-width: 250px;
+    background-color: #EBEBEB;
+    padding: 24px;
+}
+
+.detail {
+    display: flex;
+    gap: 8px;
+}
+
+.repo-card__header {
+    text-align: center;
+}

@@ -1,0 +1,9 @@
+.repo-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 32px;
+    list-style: none;
+}
