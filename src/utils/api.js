@@ -6,3 +6,10 @@ export const fetchRepos = async (lang) => {
   const { items } = await res.json();
   return items;
 };
+
+export const getUserProfile = async (username) => {
+  const endpoint = encodeURI(`https://api.github.com/users/${username}`);
+  const res = await fetch(endpoint);
+  const userProfile = await res.json();
+  return userProfile;
+};
